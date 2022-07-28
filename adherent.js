@@ -1,6 +1,5 @@
 "use strict";
 exports.__esModule = true;
-exports.Adherent = void 0;
 var budget_1 = require("./budget");
 var Adherent = /** @class */ (function () {
     //constructor 

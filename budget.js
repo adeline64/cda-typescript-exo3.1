@@ -1,6 +1,5 @@
 "use strict";
 exports.__esModule = true;
-exports.Budget = void 0;
 var Budget = /** @class */ (function () {
     //Constructeur
     function Budget(sommeTotal, operations) {

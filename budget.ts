@@ -14,8 +14,10 @@ export class Budget{
     private operation:Operation[]
 
     //Constructeur
-    constructor(){
-        this.id = Date.now.toString()
+    constructor(sommeTotal:number, operations:Operation[]){
+        this.sommeTotal = sommeTotal
+        this.operation = operations
+        this.id = Date.now().toString()
         this.operation = []
 
     }
@@ -66,8 +68,4 @@ export class Budget{
         }
         this.operation.push(operation)
     }
-
- 
-    
-
 }

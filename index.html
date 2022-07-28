@@ -9,17 +9,73 @@
 </head>
 <body>
 
-
-
-    <button type="button" class="btn btn-primary">Primary</button>
-    <button type="button" class="btn btn-secondary">Secondary</button>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-warning">Warning</button>
-    <button type="button" class="btn btn-info">Info</button>
-    <button type="button" class="btn btn-light">Light</button>
-    <button type="button" class="btn btn-dark">Dark</button>
     
+    <div class="container">
+        <div class="row">
+             <!-- Titre du site -->
+            <div class="col-sm-offset-4 col-sm-4 h1TitreMonBudget">
+                <h1>MonBudget</h1>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="col-sm-offset-4 col-sm-4">
+            <!-- solde de l'utilisateur-->
+            <h2>Solde disponible : </h2>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-offset-4 col-sm-4">
+                <!-- Titre de l'ajout d'argent -->
+                <h2>Ajouter de l'argent</h2>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-offset-4 col-sm-4">
+                    <div class="form-group">
+                        <label for="validate-text">Ajout</label>
+                        <div class="input-group">
+                            <!-- input ajout argent -->
+                            <input type="text" class="form-control" name="validate-text" id="validate-text" placeholder="Validate Text" required>
+                        </div>
+                    </div>
+                    <!-- button validation ajout argent -->
+                    <button type="submit" class="btn btn-primary col-xs-12" disabled>Valider</button>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    
+    <div class="container retirerArgent">
+        <div class="row">
+            <!-- Titre de retirer argent -->
+            <h2>Retirer de l'argent</h2>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-offset-4 col-sm-4">
+                    <div class="form-group">
+                        <label for="validate-text">Retirer</label>
+                        <div class="input-group">
+                            <!-- input retirer argent-->
+                            <input type="text" class="form-control" name="validate-text" id="validate-text" placeholder="Validate Text" required>
+                        </div>
+                    </div>
+                    <!-- button valider retirer argent -->
+                    <button type="submit" class="btn btn-primary col-xs-12" disabled>Valider</button>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="script.js"></script>
     <script src="index.js"></script>

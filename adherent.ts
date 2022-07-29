@@ -23,7 +23,22 @@ export class Adherent {
     
 
     create(){
-        
+        document.getElementById("form-inline").addEventListener("click", function() {
+            // Récupération des champs
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+          
+            if (email && password) {
+              // Nouvelle ligne
+              const movie = { email: email, password: password };
+          
+              // Ajout de la nouvelle ligne
+              movies.push(movie);
+          
+              // Affichage du nouveau tableau
+              return movies;
+            }
+          });
     }
 
     read(){

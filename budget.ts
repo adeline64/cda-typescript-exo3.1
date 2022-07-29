@@ -43,6 +43,7 @@ export class Budget{
         }
         
     }
+
     //Get Operation, retourne tout les operation effectuer sur le compte
     public GetOperation():Operation[]{
         return this.operation
@@ -55,7 +56,6 @@ export class Budget{
             operations:this.operation
         }
         return Budget
-
     }
 
     private EffectuerOperation(nsomme:number,depense:boolean, nom:string = "",cate:string = ""){

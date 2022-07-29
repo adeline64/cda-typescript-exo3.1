@@ -110,8 +110,5 @@ function f_valid(e) {
         date_m.style.color = 'red';
     }
 
-    
-
-
 }
 
